@@ -16,7 +16,6 @@ import lombok.Setter;
 @Entity
 @Table(name = "ratings")
 public class Rating {
-
     @Id
     private String ratingId;
     private String userId;
